@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import Button from "../components/Button";
-import type { NextPageWithLayout } from "_app";
+import type { NextPageWithLayout } from "./_app";
 
 const Page: NextPageWithLayout = () => {
   return (
