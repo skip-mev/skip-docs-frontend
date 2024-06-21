@@ -12,19 +12,25 @@ const nextConfig = {
       source: "/docs/:path*",
       destination: "/products/:path*",
       permanent: true,
-    },
-    {
-      source: "/discord",
-      destination: "https://discord.gg/hFeHVAE26P",
-      permanent: true,
-    },
+    }, 
   ],
   rewrites: async () => {
     return [
       {
-        source: "/api/:path*",
-        destination: "/api/proxy",
+        source: "/slinky",
+        destination: "https://skip-slinky.mintlify.app",
       },
+      {
+        source: "/slinky/:match*",
+        destination: "https://skip-slinky.mintlify.app/:match*"
+      },
+      { source: "/skip-api",
+        destination: "https://skip-api.mintlify.app"
+      },
+      { 
+        source: "/skip-api/:match*",
+        destination: "https://skip-api.mintlify.app/:match*"
+      }
     ];
   },
 };
