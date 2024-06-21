@@ -6,14 +6,7 @@ const { withSentryConfig } = require("@sentry/nextjs");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  redirects: async () => [
-    {
-      source: "/docs/:path*",
-      destination: "/products/:path*",
-      permanent: true,
-    }, 
-  ],
+  reactStrictMode: false, 
   rewrites: async () => {
     return [
       {

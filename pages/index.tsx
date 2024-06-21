@@ -13,7 +13,7 @@ const Page: NextPageWithLayout = () => {
           </div>
           <p className="text-lg">Start Building with Skip</p>
           <div className="grid grid-cols-2 xl:grid-cols-2 gap-5">
-            <Link href="https://api-docs.skip.money">
+            <Link href="/skip-api">
               <div className="bg-[#1A1B1C] p-11 pb-16 space-y-3 hover:bg-[#292A2B] cursor-pointer transform hover:scale-105 transition duration-200">
                 <img
                   className="h-10"
@@ -28,7 +28,7 @@ const Page: NextPageWithLayout = () => {
                 </p>
               </div> 
             </Link>
-            <Link href="https://docs.skip.money/slinky">
+            <Link href="/slinky">
               <div className="bg-[#1A1B1C] p-11 pb-16 space-y-3 hover:bg-[#292A2B] cursor-pointer transform hover:scale-105 transition duration-200">
                 <img className="h-10" src="/docs-icon-chains.svg" alt="Chain" />
                 <p className="text-lg leading-loose font-black">Slinky</p>
