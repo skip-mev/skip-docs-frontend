@@ -6,26 +6,26 @@ const { withSentryConfig } = require("@sentry/nextjs");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: false, 
-  rewrites: async () => {
-    return [
-      {
-        source: "/slinky",
-        destination: "https://skip-slinky.mintlify.app",
-      },
-      {
-        source: "/slinky/:match*",
-        destination: "https://skip-slinky.mintlify.app/:match*"
-      },
-      { source: "/skip-api",
-        destination: "https://skip-api.mintlify.app"
-      },
-      { 
-        source: "/skip-api/:match*",
-        destination: "https://skip-api.mintlify.app/:match*"
-      }
-    ];
-  },
+  reactStrictMode: false
+  // rewrites: async () => {
+  //   return [
+  //     {
+  //       source: "/slinky",
+  //       destination: "https://skip-slinky.mintlify.app",
+  //     },
+  //     {
+  //       source: "/slinky/:match*",
+  //       destination: "https://skip-slinky.mintlify.app/:match*"
+  //     },
+  //     { source: "/skip-api",
+  //       destination: "https://skip-api.mintlify.app"
+  //     },
+  //     { 
+  //       source: "/skip-api/:match*",
+  //       destination: "https://skip-api.mintlify.app/:match*"
+  //     }
+  //   ];
+  // },
 };
 
 module.exports = nextConfig;
