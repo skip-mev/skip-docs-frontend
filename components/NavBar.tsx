@@ -29,9 +29,6 @@ const NavBar: FC = () => {
             <Image className="w-24 h-[40px]" src={skipLogo} alt="Skip logo" />
           </Link>
           <div className="items-center gap-2 hidden md:flex">
-            <Button href="/products" type="ghost">
-              Products
-            </Button>
             <Button href="https://ideas.skip.money" externalLink type="ghost">
               Research
             </Button>

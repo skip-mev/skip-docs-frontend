@@ -36,11 +36,6 @@ const MobileMenu: FC<Props> = ({ open, onClose }) => {
                 </svg>
               </button>
             </div>
-            <div className="p-4">
-              <Button href="/registration" fullWidth large onClick={onClose}>
-                Validator registration
-              </Button>
-            </div>
             <div className="p-4 space-y-4">
               <Link
                 className="flex font-extrabold text-base tracking-wide gap-4 py-4 px-4 hover:bg-[#F3F6F8] hover:bg-opacity-5 transition-colors rounded-lg"
@@ -50,42 +45,6 @@ const MobileMenu: FC<Props> = ({ open, onClose }) => {
                 <img className="w-6" src="home-icon.svg" alt="" />
                 <span>Home</span>
               </Link>
-              <Link
-                className="flex font-extrabold text-base tracking-wide gap-4 py-4 px-4 hover:bg-[#F3F6F8] hover:bg-opacity-5 transition-colors rounded-lg"
-                href="/validators"
-                onClick={onClose}
-              >
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 20 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="w-6"
-                >
-                  <rect width="20" height="20" fill="#D9D9D9" />
-                  <rect x="2" y="2" width="16" height="16" fill="#171819" />
-                  <rect x="7" y="7" width="6" height="6" fill="#D9D9D9" />
-                </svg>
-
-                <span>Validators</span>
-              </Link>
-              <Link
-                className="flex font-extrabold text-base tracking-wide gap-4 py-4 px-4 hover:bg-[#F3F6F8] hover:bg-opacity-5 transition-colors rounded-lg"
-                href="/activity"
-                onClick={onClose}
-              >
-                <img className="w-6" src="activity-icon.svg" alt="" />
-                <span>Activity</span>
-              </Link>
-              <Link
-                className="flex font-extrabold text-base tracking-wide gap-4 py-4 px-4 hover:bg-[#F3F6F8] hover:bg-opacity-5 transition-colors rounded-lg"
-                href="/products"
-              >
-                <img className="w-6" src="docs-icon.svg" alt="" />
-                <span>Docs</span>
-              </Link>
-
               <Link
                 className="flex font-extrabold text-base tracking-wide gap-4 py-4 px-4 hover:bg-[#F3F6F8] hover:bg-opacity-5 transition-colors rounded-lg"
                 href="https://ideas.skip.money"
