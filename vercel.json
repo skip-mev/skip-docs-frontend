@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+        { "source": "/slinky", "destination": "https://skip-slinky.mintlify.app" },
+        { "source": "/skip-api", "destination": "https://skip-api.mintlify.app" },
+        { "source": "/slinky/:path*", "destination": "https://skip-slinky.mintlify.app/:path*" },
+        { "source": "/skip-api/:path*", "destination": "https://skip-api.mintlify.app/:path*" }
+        
+    ]
+}
