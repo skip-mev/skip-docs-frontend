@@ -1,8 +1,8 @@
 {
     "rewrites": [
-        { "source": "/slinky", "destination": "https://skip-slinky.mintlify.app/slinky" },
-        { "source": "/skip-api", "destination": "https://skip-api.mintlify.app/skip-api" },
-        { "source": "/slinky/:path*", "destination": "https://skip-slinky.mintlify.app/slinky/:path*" },
-        { "source": "/skip-api/:path*", "destination": "https://skip-api.mintlify.app/slinky/:path*" } 
+        { "source": "/slinky", "destination": "https://skip-slinky.mintlify-slinky.com/slinky" },
+        { "source": "/skip-api", "destination": "https://skip-api.mintlify-skip-api.com/skip-api/" },
+        { "source": "/skip-api/:path*", "destination": "https://skip-api.mintlify-skip-api.com/skip-api/:path*" },
+        { "source": "/slinky/:path*", "destination": "https://skip-slinky.mintlify-slinky.com/slinky/:path*" } 
     ]
 }
