@@ -1,0 +1,15 @@
+{
+    "rewrites": [
+        { "source": "/connect", "destination": "https://skip-slinky.mintlify-slinky.com/connect/overview" },
+        { "source": "/go", "destination": "https://skip-api.mintlify-skip-api.com/go/getting-started" },
+        { "source": "/go/:path*", "destination": "https://skip-api.mintlify-skip-api.com/go/:path*" },
+        { "source": "/connect/:path*", "destination": "https://skip-slinky.mintlify-slinky.com/connect/:path*" } 
+    ],
+    "redirects": [
+        { "source": "/slinky", "destination": "https://skip-slinky.mintlify-slinky.com/connect/overview", "statusCode": 301 },
+        { "source": "/skip-api", "destination": "https://skip-api.mintlify-skip-api.com/go/getting-started", "statusCode": 301 },
+        { "source": "/skip-api/:path*", "destination": "https://skip-api.mintlify-skip-api.com/go/:path*", "statusCode": 301 },
+        { "source": "/slinky/:path*", "destination": "https://skip-slinky.mintlify-slinky.com/connect/:path*", "statusCode": 301 }
+
+    ]
+}
