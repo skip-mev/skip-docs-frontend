@@ -42,7 +42,7 @@ const NavBar: FC = () => {
               externalLink
               type="primary"
             >
-              We're hiring
+              Jobs
             </Button>
           </div>
           <button
