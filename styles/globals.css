@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import './fonts.css';
+
 :root {
   color-scheme: dark;
 }

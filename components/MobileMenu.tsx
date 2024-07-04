@@ -36,68 +36,30 @@ const MobileMenu: FC<Props> = ({ open, onClose }) => {
                 </svg>
               </button>
             </div>
-            <div className="p-4 space-y-4">
+            <div className="p-4 space-y-1">
               <Link
-                className="flex font-extrabold text-base tracking-wide gap-4 py-4 px-4 hover:bg-[#F3F6F8] hover:bg-opacity-5 transition-colors rounded-lg"
+                className="flex font-light text-2xl  gap-4 py-4 px-4 hover:bg-[#F3F6F8] hover:bg-opacity-5 transition-colors "
                 href="/"
                 onClick={onClose}
               >
-                <img className="w-6" src="home-icon.svg" alt="" />
                 <span>Home</span>
               </Link>
-              <Link
-                className="flex font-extrabold text-base tracking-wide gap-4 py-4 px-4 hover:bg-[#F3F6F8] hover:bg-opacity-5 transition-colors rounded-lg"
-                href="https://ideas.skip.money"
-                onClick={onClose}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="w-6"
-                >
-                  <path
-                    d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
-                    stroke="#D9D9D9"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                  <path
-                    d="M21 21L16.65 16.65"
-                    stroke="#D9D9D9"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
 
-                <span>Research</span>
-              </Link>
               <Link
-                className="flex font-extrabold text-base tracking-wide gap-4 py-4 px-4 hover:bg-[#F3F6F8] hover:bg-opacity-5 transition-colors rounded-lg"
+                className="flex font-light text-2xl  gap-4 py-4 px-4 hover:bg-[#F3F6F8] hover:bg-opacity-5 transition-colors "
+                href="/"
+                onClick={onClose}
+              >
+                <span>Discord</span>
+              </Link>
+              
+              <Link
+                className="flex font-light text-2xl  gap-4 py-4 px-4 hover:bg-[#F3F6F8] hover:bg-opacity-5 transition-colors "
                 href="https://jobs.skip.money"
                 onClick={onClose}
                 target="_blank"
                 rel="noreferrer"
               >
-                <svg
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M8 7H5.5C4.94772 7 4.5 7.44772 4.5 8V11M8 7V5C8 4.44772 8.44772 4 9 4H15C15.5523 4 16 4.44772 16 5V7M8 7H16M16 7H18.5C19.0523 7 19.5 7.44772 19.5 8V11M7 19.5H5.5C4.94772 19.5 4.5 19.0523 4.5 18.5V11M7 19.5V11.5M7 19.5H16.5M7 11.5L4.5 11M7 11.5L10 12M10 12V13C10 13.5523 10.4477 14 11 14H13C13.5523 14 14 13.5523 14 13V12M10 12H14M14 12L16.5 11.5M16.5 11.5L19.5 11M16.5 11.5V19.5M19.5 11V18.5C19.5 19.0523 19.0523 19.5 18.5 19.5H16.5"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                  />
-                </svg>
                 <span>Jobs</span>
               </Link>
             </div>

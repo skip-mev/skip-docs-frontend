@@ -23,22 +23,26 @@ const NavBar: FC = () => {
         open={mobileMenuOpen}
         onClose={() => setMobileMenuOpen(false)}
       />
-      <nav className="bg-[#121213] relative">
-        <div className="mx-auto px-6 flex items-center justify-between h-16">
+      <nav className="bg-[#000000] relative">
+        <div className="mx-auto px-6 flex items-center justify-between h-20">
           <Link href="/">
-            <Image className="w-24 h-[40px]" src={skipLogo} alt="Skip logo" />
+            <Image className="w-20 h-[40px]" src={skipLogo} alt="Skip logo" />
           </Link>
           <div className="items-center gap-2 hidden md:flex">
-            <Button href="https://ideas.skip.money" externalLink type="ghost">
-              Research
+            <Button
+                href="https://skip.build/discord"
+                externalLink
+                type="primary"
+              >
+              Discord
             </Button>
             <Button
               className="mr-2"
-              href="https://jobs.skip.money"
+              href="https://skip-protocol.notion.site/Skip-Protocol-Open-Positions-a80c9cd99f2247118f89706f07fb563a/"
               externalLink
-              type="ghost"
+              type="primary"
             >
-              Jobs
+              We're hiring
             </Button>
           </div>
           <button

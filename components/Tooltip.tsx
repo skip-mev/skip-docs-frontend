@@ -17,7 +17,7 @@ const Tooptip: React.FC<TooltipProps> = ({ children }) => {
           clipRule="evenodd"
         />
       </svg>
-      <div className="absolute right-0 hidden group-hover:block bg-[#151617] shadow w-80 p-4 rounded-lg text-sm text-left">
+      <div className="absolute right-0 hidden group-hover:block bg-[#000000] shadow w-80 p-4 rounded-lg text-sm text-left">
         {children}
       </div>
     </span>
