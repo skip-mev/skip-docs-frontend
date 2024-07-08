@@ -13,7 +13,7 @@ const Page: NextPageWithLayout = () => {
           </div>
           <div className="sm:grid-cols-1 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-5">
             <Link href="/skip-api">
-              <div className="bg-[#FFC900] p-11 pb-16 space-y-3 hover:bg-[#FFD537] cursor-pointer transform hover:scale-105 transition duration-200">
+              <div className="bg-[#FFC900] h-full p-11 pb-16 space-y-3 hover:bg-[#FFD537] cursor-pointer transform hover:scale-105 transition duration-200">
                 <h2 className="text-2xl font-light text-black">Skip:Go</h2>
                 <img
                   className="h-100 my-16 mx-auto"
@@ -26,7 +26,7 @@ const Page: NextPageWithLayout = () => {
               </div> 
             </Link>
             <Link href="/slinky">
-              <div className="bg-[#0061FF] p-11 pb-16 space-y-3 hover:bg-[#0041AB] cursor-pointer transform hover:scale-105 transition duration-200">
+              <div className="bg-[#0061FF] h-full p-11 pb-16 space-y-3 hover:bg-[#0041AB] cursor-pointer transform hover:scale-105 transition duration-200">
                 <h2 className="text-2xl font-light">Skip:Connect</h2>
                 <img className="h-100 my-16 mx-auto" src="/connect-illustration.svg" alt="Oracle" />
                 <p className="flex-1 text-2xl font-light">
