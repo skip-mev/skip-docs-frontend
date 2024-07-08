@@ -10,8 +10,13 @@ module.exports = {
     extend: {},
     fontFamily: {
       ...defaultTheme.fontFamily,
-      sans: ["Inconsolata", "sans-serif"],
+      display: ["Reform", "sans-serif"],
+      sans: ["ABCDiatype", "sans-serif"],
+      mono: ["ABCDiatypeMono", "monospace"]
     },
+    letterSpacing: {
+      tight: '-.002em'
+    }
   },
   plugins: [],
   safelist: ["text-right"],

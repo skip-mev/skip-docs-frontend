@@ -1,0 +1,189 @@
+@font-face {
+  font-family: 'ABCDiatype';
+  src: url('/fonts/dia/ABCDiatype-Light.woff2') format('woff2'),
+       url('/fonts/dia/ABCDiatype-Light.woff') format('woff'),
+       url('/fonts/dia/ABCDiatype-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ABCDiatype';
+  src: url('/fonts/dia/ABCDiatype-LightItalic.woff2') format('woff2'),
+       url('/fonts/dia/ABCDiatype-LightItalic.woff') format('woff'),
+       url('/fonts/dia/ABCDiatype-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ABCDiatype';
+  src: url('/fonts/dia/ABCDiatype-Regular.woff2') format('woff2'),
+       url('/fonts/dia/ABCDiatype-Regular.woff') format('woff'),
+       url('/fonts/dia/ABCDiatype-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ABCDiatype';
+  src: url('/fonts/dia/ABCDiatype-RegularItalic.woff2') format('woff2'),
+       url('/fonts/dia/ABCDiatype-RegularItalic.woff') format('woff'),
+       url('/fonts/dia/ABCDiatype-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ABCDiatype';
+  src: url('/fonts/dia/ABCDiatype-Medium.woff2') format('woff2'),
+       url('/fonts/dia/ABCDiatype-Medium.woff') format('woff'),
+       url('/fonts/dia/ABCDiatype-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ABCDiatype';
+  src: url('/fonts/dia/ABCDiatype-MediumItalic.woff2') format('woff2'),
+       url('/fonts/dia/ABCDiatype-MediumItalic.woff') format('woff'),
+       url('/fonts/dia/ABCDiatype-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ABCDiatype';
+  src: url('/fonts/dia/ABCDiatype-Bold.woff2') format('woff2'),
+       url('/fonts/dia/ABCDiatype-Bold.woff') format('woff'),
+       url('/fonts/dia/ABCDiatype-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ABCDiatype';
+  src: url('/fonts/dia/ABCDiatype-BoldItalic.woff2') format('woff2'),
+       url('/fonts/dia/ABCDiatype-BoldItalic.woff') format('woff'),
+       url('/fonts/dia/ABCDiatype-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ABCDiatype';
+  src: url('/fonts/dia/ABCDiatype-Heavy.woff2') format('woff2'),
+       url('/fonts/dia/ABCDiatype-Heavy.woff') format('woff'),
+       url('/fonts/dia/ABCDiatype-Heavy.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ABCDiatype';
+  src: url('/fonts/dia/ABCDiatype-HeavyItalic.woff2') format('woff2'),
+       url('/fonts/dia/ABCDiatype-HeavyItalic.woff') format('woff'),
+       url('/fonts/dia/ABCDiatype-HeavyItalic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ABCDiatype';
+  src: url('/fonts/dia/ABCDiatype-Black.woff2') format('woff2'),
+       url('/fonts/dia/ABCDiatype-Black.woff') format('woff'),
+       url('/fonts/dia/ABCDiatype-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ABCDiatype';
+  src: url('/fonts/dia/ABCDiatype-BlackItalic.woff2') format('woff2'),
+       url('/fonts/dia/ABCDiatype-BlackItalic.woff') format('woff'),
+       url('/fonts/dia/ABCDiatype-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ABCDiatype';
+  src: url('/fonts/dia/ABCDiatype-Thin.woff2') format('woff2'),
+       url('/fonts/dia/ABCDiatype-Thin.woff') format('woff'),
+       url('/fonts/dia/ABCDiatype-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ABCDiatype';
+  src: url('/fonts/dia/ABCDiatype-ThinItalic.woff2') format('woff2'),
+       url('/fonts/dia/ABCDiatype-ThinItalic.woff') format('woff'),
+       url('/fonts/dia/ABCDiatype-ThinItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ABCDiatype';
+  src: url('/fonts/dia/ABCDiatype-Ultra.woff2') format('woff2'),
+       url('/fonts/dia/ABCDiatype-Ultra.woff') format('woff'),
+       url('/fonts/dia/ABCDiatype-Ultra.otf') format('opentype');
+  font-weight: 950;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ABCDiatype';
+  src: url('/fonts/dia/ABCDiatype-UltraItalic.woff2') format('woff2'),
+       url('/fonts/dia/ABCDiatype-UltraItalic.woff') format('woff'),
+       url('/fonts/dia/ABCDiatype-UltraItalic.otf') format('opentype');
+  font-weight: 950;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Reform';
+  src: url('/fonts/ref/ReformSkip-Regular.woff') format('woff'),
+  url('/fonts/ref/ReformSkip-Regular.woff2') format('woff2'),
+  url('/fonts/ref/ReformSkip-Regular.otf') format('otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Reform';
+  src: url('/fonts/ref/ReformSkip-Medium.woff') format('woff'),
+  url('/fonts/ref/ReformSkip-Medium.woff2') format('woff2'),
+  url('/fonts/ref/ReformSkip-Medium.otf') format('otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Reform';
+  src: url('/fonts/ref/ReformSkip-Bold.woff') format('woff'),
+  url('/fonts/ref/ReformSkip-Bold.woff2') format('woff2'),
+  url('/fonts/ref/ReformSkip-Bold.otf') format('otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ABCDiatypeMono';
+  src: url('/fonts/mono/ABCDiatypeMono-Medium.woff2') format('woff2'),
+       url('/fonts/mono/ABCDiatypeMono-Medium.woff') format('woff'),
+       url('/fonts/mono/ABCDiatypeMono-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ABCDiatypeMono';
+  src: url('/fonts/mono/ABCDiatypeMono-MediumItalic.woff2') format('woff2'),
+       url('/fonts/mono/ABCDiatypeMono-MediumItalic.woff') format('woff'),
+       url('/fonts/mono/ABCDiatypeMono-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}

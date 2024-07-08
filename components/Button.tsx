@@ -33,9 +33,9 @@ const Button: FC<ButtonProps> = ({
   const TAG = href ? "a" : "button";
 
   const btnClass = cn(
-    "font-semibold text-sm rounded-md px-2.5 py-1.5 transition-colors inline-block",
+    "font-bold text-l rounded-full px-2.5 py-1.5  inline-block",
     {
-      "bg-[#F3F6F8] bg-opacity-90 hover:bg-opacity-95 active:bg-opacity-100 text-[#151617f2] disabled:bg-opacity-50":
+      "bg-[#ffffff] text-[#000000] hover:bg-[#000000] hover:text-[#ffffff] disabled:bg-opacity-50":
         type === "primary",
       "text-[#F3F6F8B3] hover:bg-[#F3F6F8] hover:bg-opacity-10 active:bg-opacity-[0.15] disabled:text-[#F3F6F8B3]/50 disabled:hover:bg-transparent":
         type === "ghost",

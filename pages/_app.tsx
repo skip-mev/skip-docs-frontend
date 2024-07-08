@@ -28,7 +28,7 @@ export default function App({
   return getLayout(
     <>
       <Head>
-        <title>Skip</title>
+        <title>Skip – Docs</title>
         <meta
           name="description"
           content="Skip sovereign MEV solutions for sovereign blockchain communities."
