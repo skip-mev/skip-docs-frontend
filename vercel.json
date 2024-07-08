@@ -1,9 +1,9 @@
 {
     "rewrites": [
-        { "source": "/connect", "destination": "https://skip-slinky.mintlify-slinky.com/connect/overview" },
-        { "source": "/go", "destination": "https://skip-api.mintlify-skip-api.com/go/general/getting-started" },
-        { "source": "/go/:path*", "destination": "https://skip-api.mintlify-skip-api.com/go/:path*" },
-        { "source": "/connect/:path*", "destination": "https://skip-slinky.mintlify-slinky.com/connect/:path*" } 
+        { "source": "/connect", "destination": "https://skip-connect.mintlify-connect.com/connect" },
+        { "source": "/go", "destination": "https://skip-go.mintlify-go.com/go/general/getting-started" },
+        { "source": "/go/:path*", "destination": "https://skip-go.mintlify-go.com/go/:path*" },
+        { "source": "/connect/:path*", "destination": "https://skip-connect.mintlify-connect.com/connect/:path*" } 
     ],
     "redirects": [
         { "source": "/slinky", "destination": "https://docs.skip.money/connect/overview", "statusCode": 301 },
