@@ -31,7 +31,7 @@ export default function App({
         <title>Skip – Docs</title>
         <meta
           name="description"
-          content="Skip sovereign MEV solutions for sovereign blockchain communities."
+          content="Docs for sovereign communities"
         ></meta>
       </Head>
       <main>
