@@ -6,10 +6,10 @@
         { "source": "/connect/:path*", "destination": "https://skip-connect.mintlify-connect.com/connect/:path*" } 
     ],
     "redirects": [
-        { "source": "/slinky", "destination": "https://docs.skip.money/connect/overview", "statusCode": 301 },
-        { "source": "/skip-api", "destination": "https://docs.skip.money/go/general/getting-started", "statusCode": 301 },
-        { "source": "/skip-api/:path*", "destination": "https://docs.skip.money/go/:path*", "statusCode": 301 },
-        { "source": "/slinky/:path*", "destination": "https://docs.skip.money/connect/:path*", "statusCode": 301 },
+        { "source": "/slinky", "destination": "https://docs.skip.build/connect/overview", "statusCode": 301 },
+        { "source": "/skip-api", "destination": "https://docs.skip.build/go/general/getting-started", "statusCode": 301 },
+        { "source": "/skip-api/:path*", "destination": "https://docs.skip.build/go/:path*", "statusCode": 301 },
+        { "source": "/slinky/:path*", "destination": "https://docs.skip.build/connect/:path*", "statusCode": 301 },
         { "source": "/blocksdk(.*)", "destination": "https://github.com/skip-mev/block-sdk/blob/main/docs/0-integrate-the-sdk.md", "statusCode": 301 }
     ]
 }
