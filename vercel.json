@@ -6,6 +6,7 @@
         { "source": "/connect/:path*", "destination": "https://skip-connect.mintlify-connect.com/connect/:path*" } 
     ],
     "redirects": [
+        { "source": "/", "destination": "/go", "statusCode": 301 },
         { "source": "/slinky", "destination": "https://docs.skip.money/connect/overview", "statusCode": 301 },
         { "source": "/skip-api", "destination": "https://docs.skip.money/go/general/getting-started", "statusCode": 301 },
         { "source": "/skip-api/:path*", "destination": "https://docs.skip.money/go/:path*", "statusCode": 301 },
