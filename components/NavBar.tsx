@@ -38,7 +38,7 @@ const NavBar: FC = () => {
             </Button>
             <Button
               className="mr-2"
-              href="https://skip-protocol.notion.site/Skip-Protocol-Open-Positions-a80c9cd99f2247118f89706f07fb563a/"
+              href="https://job-boards.greenhouse.io/interchain/"
               externalLink
               type="primary"
             >
